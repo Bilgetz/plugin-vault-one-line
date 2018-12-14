@@ -1,0 +1,18 @@
+{
+  "name": "plugin-vault-one-line",
+  "main": "./lib/plugin-vault-one-line",
+  "version": "0.1.0",
+  "description": "For vault value with encrypt_string of ansible-vault",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "plugin-vault-one-line:toggle"
+  },
+  "repository": "https://github.com/atom/plugin-vault-one-line",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

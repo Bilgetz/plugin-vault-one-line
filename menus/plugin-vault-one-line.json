@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle Ansible Vault one line",
+        "command": "plugin-vault-one-line:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Ansible Vault one line",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "plugin-vault-one-line:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
